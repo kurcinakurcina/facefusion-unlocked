@@ -1,7 +1,7 @@
 FaceFusion
 ==========
 
-> Next generation face swapper and enhancer.
+> Next generation face swapper and enhancer. Without any NSFW filtering or blocks
 
 [![Build Status](https://img.shields.io/github/actions/workflow/status/facefusion/facefusion/ci.yml.svg?branch=master)](https://github.com/facefusion/facefusion/actions?query=workflow:ci)
 ![License](https://img.shields.io/badge/license-MIT-green)
@@ -16,7 +16,7 @@ Preview
 Installation
 ------------
 
-Be aware, the installation needs technical skills and is not for beginners. Please do not open platform and installation related issues on GitHub. We have a very helpful [Discord](https://join.facefusion.io) community that will guide you to complete the installation.
+Be aware, the installation needs technical skills and is not for beginners. Please do not open platform and installation related issues on GitHub. We have a very helpful [Discord]([https://join.facefusion.io](https://discord.gg/x9naV33rrU)) NSFW where you can share results.
 
 Get started with the [installation](https://docs.facefusion.io/installation) guide.
 
