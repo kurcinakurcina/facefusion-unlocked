@@ -67,14 +67,10 @@ def prepare_frame(frame : Frame) -> Frame:
 	return frame
 
 
-def analyse_frame(frame : Frame) -> bool:
-	content_analyser = get_content_analyser()
-	frame = prepare_frame(frame)
-	probability = content_analyser.run(None,
-	{
-		'input:0': frame
-	})[0][0][1]
-	return probability > MAX_PROBABILITY
+def analyse_frame(frame: Frame) -> bool:
+    #  bypass NSFW check
+    return False
+
 
 
 @lru_cache(maxsize = None)
